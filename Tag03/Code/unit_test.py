@@ -9,7 +9,7 @@ def calculate_age_average(people_dict):
     if isinstance(people_dict, dict) == False or len(people_dict) == 0: return 0
     # Iterate over all gang members.
     for key, value in people_dict.items():
-        sumOfAllAges += int(float(value["Age"]))
+        sumOfAllAges += float(value["Age"])
     return sumOfAllAges / len(people_dict)
 
 class TestCalculateAverage(unittest.TestCase):
