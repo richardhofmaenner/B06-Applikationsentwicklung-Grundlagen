@@ -12,7 +12,7 @@ def main():
     hairColors = getHairColors(allGangMembers)
     print(f"The hair colors of all gang members are: {hairColors}")
 
-    saveResultsToJson(averageAge, hairColors)
+    saveResultsToJson(averageAge, hairColors, allGangMembers)
 
 
 # Get the json file content and load it into a dictionary
@@ -46,11 +46,12 @@ def getHairColors(allGangMembers):
 
 
 # Save the results to a json file
-def saveResultsToJson(averageAge, hairColors):
+def saveResultsToJson(averageAge, hairColors, allGangMembers):
     path = "Tag03/Übungen/the_gang_result.json"
     result = dict()
-    result["AverageAge"] = averageAge
-    result["HairColors"] = hairColors
+    result["averageAge"] = averageAge
+    result["hairColors"] = hairColors
+    result["count"] = len(allGangMembers)
 
     if os.path.exists(path):
         os.remove(path)
