@@ -5,7 +5,12 @@ import unittest
 
 def calculate_age_average(people_dict):
     """Function to calculate the average age. people_dict is expected to be a dictionary with sub-dictionaries which contains 'Age'."""
-    pass
+    sumOfAllAges = 0
+    if isinstance(people_dict, dict) == False or len(people_dict) == 0: return 0
+    # Iterate over all gang members.
+    for key, value in people_dict.items():
+        sumOfAllAges += int(float(value["Age"]))
+    return sumOfAllAges / len(people_dict)
 
 class TestCalculateAverage(unittest.TestCase):
     def test_when_empty_then_zero(self):

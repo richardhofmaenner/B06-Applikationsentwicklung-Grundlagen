@@ -59,6 +59,5 @@ def saveResultsToJson(averageAge, hairColors, allGangMembers):
     with open(path, "w") as file:
         json.dump(result, file)
 
-
 if __name__ == "__main__":
     main()
