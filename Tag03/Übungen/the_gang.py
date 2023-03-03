@@ -15,7 +15,7 @@ def main():
     saveResultsToJson(averageAge, hairColors)
 
 
-# Get the file json file content and load it into a dictionary
+# Get the json file content and load it into a dictionary
 def loadFileContentFromJson(json_file_name):
     result = dict()
     # Check if the given file exists
