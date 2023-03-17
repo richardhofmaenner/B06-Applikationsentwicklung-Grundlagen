@@ -1,5 +1,5 @@
 # open sample file
-with open("sample-2mb-text-file.txt", "r") as file:
+with open("Tag04/Pruefung/sample-2mb-text-file.txt", "r") as file:
     countOfRows = 0
     countOfEst = 0
     # read file line by line

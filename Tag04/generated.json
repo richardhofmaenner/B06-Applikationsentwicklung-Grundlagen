@@ -1,0 +1,45 @@
+{
+  "_id": "640af7e9eca82f6fa7386f42",
+  "index": 0,
+  "guid": "bca3d72d-9b65-42cf-8061-667b9426a673",
+  "isActive": false,
+  "balance": "$1,259.33",
+  "picture": "http://placehold.it/32x32",
+  "age": 27,
+  "eyeColor": "blue",
+  "name": "Maxwell Ewing",
+  "gender": "male",
+  "company": "VELOS",
+  "email": "maxwellewing@velos.com",
+  "phone": "+1 (975) 443-2010",
+  "address": "501 Wolcott Street, Moraida, American Samoa, 6354",
+  "about": "Ad \\dolore \\quis excepteur quis reprehenderit \\ipsum mollit laboris pariatur Lorem excepteur. Sint in exercitation veniam incididunt Lorem. Quis Lorem sit fugiat eu veniam. Culpa dolor occaecat nostrud quis non duis enim sit. Sint adipisicing amet occaecat esse exercitation non esse est. Fugiat sunt nisi magna do exercitation irure culpa minim ut commodo non officia proident aliqua. Lorem nostrud mollit consequat consectetur sint ullamco irure eu aute.\r\n",
+  "registered": "2016-08-27T03:36:28 -02:00",
+  "latitude": -55.210197,
+  "longitude": 61.358249,
+  "tags": [
+    "deserunt",
+    "eiusmod",
+    "aliqua",
+    "veniam",
+    "ea",
+    "cillum",
+    "elit"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Nikki Bradley"
+    },
+    {
+      "id": 1,
+      "name": "Rosie Stanton"
+    },
+    {
+      "id": 2,
+      "name": "Pearl Hines"
+    }
+  ],
+  "greeting": "Hello, Maxwell Ewing! You have 4 unread messages.",
+  "favoriteFruit": "strawberry"
+}
