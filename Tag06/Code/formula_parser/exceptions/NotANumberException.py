@@ -1,0 +1,2 @@
+class NotANumber(Exception):
+  pass

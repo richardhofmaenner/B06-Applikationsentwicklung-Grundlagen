@@ -1,0 +1,2 @@
+class InvalidOperator(Exception):
+  pass
